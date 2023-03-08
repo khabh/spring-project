@@ -4,22 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b821ca1-a9d2-4d54-b5d2-8d5dcbd0c827" name="변경" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/GradleUpdaterPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/domain/posts/Posts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/domain/posts/PostsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/dto/HelloResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/domain/posts/PostsRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/web/HelloControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/web/dto/HelloResponseDtoTest.java" afterDir="false" />
+    <list default="true" id="0b821ca1-a9d2-4d54-b5d2-8d5dcbd0c827" name="변경" comment="간단한 테스트 코드 작성">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/domain/BaseTimeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/service/posts/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/dto/PostsListResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/dto/PostsResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/web/IndexControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/web/PostsApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juha/spring/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/domain/posts/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juha/book/springboot/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/domain/posts/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/domain/posts/PostsRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juha/book/springboot/web/HelloControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +76,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -93,7 +105,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/javacode/spring",
+    "last_opened_file_path": "F:/javacode/spring/src/main/resources/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,12 +114,26 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "119b3df13ddf2e00acd0e388d154323c"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.PostsRepositoryTest.게시글저장_불러오기">
-    <configuration name="HelloControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javacode\spring\src\main\resources\templates" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.juha.book.springboot.web" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.juha.book.springboot.domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.juha.book.springboot.web.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="IndexControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.juha.book.springboot.web.HelloControllerTest&quot;" />
+            <option value="&quot;com.juha.book.springboot.web.IndexControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,7 +156,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloControllerTest.helloDto가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IndexControllerTest.메인페이지_로딩" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +169,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.juha.book.springboot.web.HelloControllerTest.helloDto가_리턴된다&quot;" />
+            <option value="&quot;com.juha.book.springboot.web.IndexControllerTest.메인페이지_로딩&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +179,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsApiControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,7 +192,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.juha.book.springboot.web.dto.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
+            <option value="&quot;com.juha.book.springboot.web.PostsApiControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,7 +202,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsRepositoryTest.BaseTimeEntity_등록" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,7 +215,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.juha.book.springboot.domain.posts.PostsRepositoryTest.게시글저장_불러오기&quot;" />
+            <option value="&quot;com.juha.book.springboot.domain.posts.PostsRepositoryTest.BaseTimeEntity_등록&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -214,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PostsRepositoryTest.게시글저장_불러오기" />
-        <item itemvalue="Gradle.HelloControllerTest.helloDto가_리턴된다" />
-        <item itemvalue="Gradle.HelloResponseDtoTest.롬복_기능_테스트" />
-        <item itemvalue="Gradle.HelloControllerTest" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Gradle.IndexControllerTest" />
+        <item itemvalue="Gradle.IndexControllerTest.메인페이지_로딩" />
+        <item itemvalue="Gradle.PostsRepositoryTest.BaseTimeEntity_등록" />
+        <item itemvalue="Gradle.PostsApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +262,11 @@
       <workItem from="1678104218528" duration="1240000" />
       <workItem from="1678153336105" duration="2512000" />
       <workItem from="1678188598718" duration="3319000" />
-      <workItem from="1678195932838" duration="1001000" />
+      <workItem from="1678195932838" duration="1468000" />
+      <workItem from="1678225356650" duration="2567000" />
+      <workItem from="1678230261748" duration="479000" />
+      <workItem from="1678259111174" duration="4617000" />
+      <workItem from="1678266635312" duration="3142000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678027159001</created>
@@ -245,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678027159001</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="간단한 테스트 코드 작성">
+      <created>1678197365834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678197365834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="간단한 테스트 코드 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="간단한 테스트 코드 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
