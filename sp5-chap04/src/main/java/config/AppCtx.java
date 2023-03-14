@@ -53,6 +53,8 @@ public class AppCtx {
 //		setter 메서드에 @AutoWired를 사용해 자동 의존 주입
 		
 		return new MemberInfoPrinter();
+		// 설정 클래스에서 세터 메서드를 통해 의존을 주입해도 해당 세터 메서드에 @Autowired가 있으면
+		// 자동 주입을 통해 일치하는 빈을 주입한다.
 	}
 	
 	@Bean
